@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.App {
+  text-align: center;
+}
+body{
+  box-sizing: border-box;
+  background: rgb(34, 193, 195);
+  background: linear-gradient (to bottom 0deg, rgb(104, 107, 107) 50%, rgba(125,191,83,1)100%);
+}
+
+.counter-container{
+display:flex;
+flex-direction: column;
+}
+
+.counter-container h1{
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+p{
+  text-align: center;
+  color:#fff;
+}
+
+.btn1, .btn2{
+  border-radius: 15px;
+  margin-top:1%;
+  width: 50px;
+  padding: 10px;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn1{
+  background-color:#ffff33;
+}
+
+.btn2{
+  background-color:#ff6666;
+}
